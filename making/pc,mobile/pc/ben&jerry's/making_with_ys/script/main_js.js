@@ -53,7 +53,7 @@ let sundae = [
         id:0,
         nameKR:`헤이즐넛 벗 초콜릿`,
         nameEN:`Hazel Nuttin' but Chocolate`,
-        imgurl:`images/product/sundae/Hazel-nuttin' but Chocolate.webp`
+        imgurl:`images/product/sundae/Hazel-nuttin but Chocolate.webp`
     },
     {
         id:0,
