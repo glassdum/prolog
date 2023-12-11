@@ -1,0 +1,661 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BEN&JERRY'S</title>
+    <link rel="shortcut icon" type="image/x-icon" href="./images/ico_icecream.ico">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/slick.css">
+    <link rel="stylesheet" href="./css/main.css">
+    <script src="./script/code.jquery.com_jquery-3.7.1.min.js"></script>
+    <script src="./script/slick.js"></script>
+</head>
+<body>
+    <header>
+        <div class="inner">
+            <div class="left_inner">
+                <h1>
+                    <a href="index.html">
+                        ben&herry's
+                    </a>
+                </h1>
+                <ul class="menu">
+                    <li>
+                        <a href="javascript:void(0)">MENU</a>
+                        <ul class="depth2">
+                            <li><a href="javascript:void(0)">PINT</a></li>
+                            <li><a href="javascript:void(0)">MINICUP</a></li>
+                            <li><a href="javascript:void(0)">SCOOP</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="javascript:void(0)">STORY</a>
+                        <ul class="depth2">
+                            <li><a href="javascript:void(0)">BRAND</a></li>
+                            <li><a href="javascript:void(0)">VALUE</a></li>
+                            <li><a href="process.html">PROCESS</a></li>
+                            <li><a href="javascript:void(0)">STAFF</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="javascript:void(0)">NOTICE</a>
+                        <ul class="depth2">
+                            <li><a href="javascript:void(0)">PROMOTION</a></li>
+                            <li><a href="javascript:void(0)">EVENT</a></li>
+                            <li><a href="javascript:void(0)">CONTACT</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="javascript:void(0)">LOCATION</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="right_inner">
+                <button class="search_btn">
+                    <svg viewBox="0 0 32 32">
+                        <g clip-path="url(#clip0_8_22)">
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M14 2.66675C12.1928 2.6669 10.4118 3.09923 8.80568 3.92767C7.19953 4.75611 5.81479 5.95664 4.76698 7.42909C3.71917 8.90153 3.03868 10.6032 2.78228 12.3921C2.52588 14.1811 2.701 16.0054 3.29304 17.7129C3.88508 19.4203 4.87686 20.9615 6.18565 22.2077C7.49444 23.4539 9.08228 24.3691 10.8167 24.8769C12.5511 25.3846 14.3818 25.4703 16.156 25.1266C17.9303 24.783 19.5966 24.02 21.016 22.9014L25.8853 27.7707C26.1368 28.0136 26.4736 28.148 26.8232 28.145C27.1728 28.1419 27.5072 28.0017 27.7544 27.7545C28.0016 27.5073 28.1419 27.1729 28.1449 26.8233C28.1479 26.4737 28.0135 26.1369 27.7707 25.8854L22.9013 21.0161C24.2187 19.3449 25.0389 17.3366 25.2681 15.221C25.4974 13.1055 25.1264 10.9681 24.1976 9.05354C23.2689 7.13897 21.8198 5.52456 20.0164 4.39506C18.213 3.26556 16.128 2.66661 14 2.66675ZM5.33334 14.0001C5.33334 11.7015 6.24643 9.49714 7.87174 7.87182C9.49706 6.24651 11.7015 5.33341 14 5.33341C16.2985 5.33341 18.5029 6.24651 20.1283 7.87182C21.7536 9.49714 22.6667 11.7015 22.6667 14.0001C22.6667 16.2986 21.7536 18.503 20.1283 20.1283C18.5029 21.7537 16.2985 22.6667 14 22.6667C11.7015 22.6667 9.49706 21.7537 7.87174 20.1283C6.24643 18.503 5.33334 16.2986 5.33334 14.0001Z">
+                        </g>
+                        <defs>
+                        <clipPath id="clip0_8_22">
+                        <rect width="32" height="32" fill="white"/>
+                        </clipPath>
+                        </defs>
+                        </svg>
+                    </button>
+                <button class="ice_cream_btn">
+                    <svg viewBox="0 0 32 32">
+                        <path d="M4 13.3333C4 12.1999 4.328 11.1777 4.984 10.2666C5.64 9.35547 6.46756 8.71103 7.46667 8.33325C7.86667 6.31103 8.86133 4.63859 10.4507 3.31592C12.04 1.99325 13.8898 1.33236 16 1.33325C18.1111 1.33325 19.9613 1.99459 21.5507 3.31725C23.14 4.63992 24.1342 6.31192 24.5333 8.33325C25.5333 8.71103 26.3613 9.35547 27.0173 10.2666C27.6733 11.1777 28.0009 12.1999 28 13.3333C28 14.9999 27.4111 16.3221 26.2333 17.2999C25.0556 18.2777 23.7333 18.7333 22.2667 18.6666L17.2333 28.3999C17.1222 28.6444 16.9609 28.8221 16.7493 28.9333C16.5378 29.0444 16.3102 29.0999 16.0667 29.0999C15.8222 29.0999 15.5889 29.0444 15.3667 28.9333C15.1444 28.8221 14.9778 28.6444 14.8667 28.3999L9.8 18.6666C8.22222 18.7333 6.86133 18.2777 5.71733 17.2999C4.57333 16.3221 4.00089 14.9999 4 13.3333ZM9.33333 15.9999C9.66667 15.9999 9.99467 15.9444 10.3173 15.8333C10.64 15.7221 10.9342 15.5333 11.2 15.2666L11.9333 14.5333L12.8 15.0666C13.2667 15.3777 13.7724 15.611 14.3173 15.7666C14.8622 15.9221 15.4231 15.9999 16 15.9999C16.5778 15.9999 17.1391 15.9221 17.684 15.7666C18.2289 15.611 18.7342 15.3777 19.2 15.0666L20.0667 14.5333L20.8 15.2666C21.0667 15.5333 21.3613 15.7221 21.684 15.8333C22.0067 15.9444 22.3342 15.9999 22.6667 15.9999C23.4 15.9999 24.028 15.7386 24.5507 15.2159C25.0733 14.6933 25.3342 14.0657 25.3333 13.3333C25.3333 12.6666 25.1222 12.083 24.7 11.5826C24.2778 11.0821 23.7333 10.7768 23.0667 10.6666L22.0667 10.5333L22 9.46659C21.8889 7.93325 21.2556 6.63903 20.1 5.58392C18.9444 4.52881 17.5778 4.00081 16 3.99992C14.4222 3.99992 13.0556 4.52792 11.9 5.58392C10.7444 6.63992 10.1111 7.93414 10 9.46659L9.93333 10.5333L8.93333 10.7333C8.26667 10.8666 7.72222 11.1666 7.3 11.6333C6.87778 12.0999 6.66667 12.6666 6.66667 13.3333C6.66667 14.0666 6.928 14.6946 7.45067 15.2173C7.97333 15.7399 8.60089 16.0008 9.33333 15.9999ZM16.0667 24.8666L19.6667 17.8666C19.1333 18.1333 18.5556 18.3333 17.9333 18.4666C17.3111 18.5999 16.6667 18.6666 16 18.6666C15.4 18.6666 14.7942 18.5999 14.1827 18.4666C13.5711 18.3333 12.9769 18.1333 12.4 17.8666L16.0667 24.8666Z">
+                        </svg>
+                </button>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="slide_box">
+            <div class="slide_cover">cover</div>
+            <div class="slide_images">
+                <img src="./images/visual/visual1.jpg" alt="WAFFLE LOTTA GOOD">
+                <img src="./images/visual/visual2.jpg" alt="Chocolate Chip Cookie Dough1">
+                <img src="./images/visual/visual3.jpg" alt="Chocolate Chip Cookie Dough2">
+                <img src="./images/visual/visual4.jpg" alt="Chocolate Chip Cookie Dough3">
+                <img src="./images/visual/visual5.jpg" alt="Jerry Ben">
+            </div>
+        </div>
+    </main>
+    <section class="product_page">
+        <div class="product">
+            <ul class="list_menu">
+                <li class="on"><a href="javascript:void(0)">ALL</a></li>
+                <li><a href="javascript:void(0)">PINT</a></li>
+                <li><a href="javascript:void(0)">MINICUP</a></li>
+                <li><a href="javascript:void(0)">SCOOP</a></li>
+            </ul>
+            <!-- all -->
+            <div class="all active">
+                <div class="product_list">
+                    <ul>
+                        <li class="listno1">
+                            <a href="javascript:void(0)">
+                                <span class="on">
+                                    <svg viewBox="0 0 62 62">
+                                        <path d="M31.1292 59.4167L18.9875 36.1667C15.9306 36.2959 13.2938 35.4132 11.0773 33.5188C8.86083 31.6243 7.75172 29.0625 7.75 25.8334C7.75 23.6375 8.3855 21.657 9.6565 19.8917C10.9275 18.1264 12.5309 16.8778 14.4667 16.1459C15.2417 12.2278 17.1688 8.98746 20.2482 6.42479C23.3275 3.86213 26.9114 2.58165 31 2.58338C35.0903 2.58338 38.6751 3.86471 41.7544 6.42738C44.8338 8.99004 46.7601 12.2295 47.5333 16.1459C49.4708 16.8778 51.0751 18.1264 52.3461 19.8917C53.6171 21.657 54.2517 23.6375 54.25 25.8334C54.25 29.0625 53.109 31.6243 50.8271 33.5188C48.5451 35.4132 45.9833 36.2959 43.1417 36.1667L31.1292 59.4167ZM18.0833 31C18.7292 31 19.3647 30.8924 19.9898 30.6771C20.615 30.4618 21.1851 30.0959 21.7 29.5792L23.1208 28.1584L24.8 29.1917C25.7042 29.7945 26.6841 30.2466 27.7398 30.548C28.7956 30.8493 29.8823 31 31 31C32.1194 31 33.207 30.8493 34.2628 30.548C35.3185 30.2466 36.2976 29.7945 37.2 29.1917L38.8792 28.1584L40.3 29.5792C40.8167 30.0959 41.3876 30.4618 42.0128 30.6771C42.6379 30.8924 43.2726 31 43.9167 31C45.3375 31 46.5543 30.4937 47.5669 29.481C48.5796 28.4684 49.0851 27.2525 49.0833 25.8334C49.0833 24.5417 48.6743 23.4111 47.8563 22.4415C47.0382 21.4718 45.9833 20.8803 44.6917 20.6667L42.7542 20.4084L42.625 18.3417C42.4097 15.3709 41.1826 12.8633 38.9438 10.819C36.7049 8.77476 34.0569 7.75176 31 7.75004C27.9431 7.75004 25.2951 8.77304 23.0563 10.819C20.8174 12.865 19.5903 15.3726 19.375 18.3417L19.2458 20.4084L17.3083 20.7959C16.0167 21.0542 14.9618 21.6355 14.1438 22.5396C13.3257 23.4438 12.9167 24.5417 12.9167 25.8334C12.9167 27.2542 13.423 28.471 14.4357 29.4836C15.4483 30.4963 16.6642 31.0018 18.0833 31ZM31.1292 48.1792L38.1042 34.6167C37.0708 35.1334 35.9514 35.5209 34.7458 35.7792C33.5403 36.0375 32.2917 36.1667 31 36.1667C29.8375 36.1667 28.6638 36.0375 27.4789 35.7792C26.294 35.5209 25.1427 35.1334 24.025 34.6167L31.1292 48.1792Z">
+                                    </svg>
+                                </span>
+                                NEW
+                            </a>
+                        </li>
+                        <li class="listno2">
+                            <a href="javascript:void(0)">
+                                <span>
+                                    <svg viewBox="0 0 62 62">
+                                        <path d="M31.1292 59.4167L18.9875 36.1667C15.9306 36.2959 13.2938 35.4132 11.0773 33.5188C8.86083 31.6243 7.75172 29.0625 7.75 25.8334C7.75 23.6375 8.3855 21.657 9.6565 19.8917C10.9275 18.1264 12.5309 16.8778 14.4667 16.1459C15.2417 12.2278 17.1688 8.98746 20.2482 6.42479C23.3275 3.86213 26.9114 2.58165 31 2.58338C35.0903 2.58338 38.6751 3.86471 41.7544 6.42738C44.8338 8.99004 46.7601 12.2295 47.5333 16.1459C49.4708 16.8778 51.0751 18.1264 52.3461 19.8917C53.6171 21.657 54.2517 23.6375 54.25 25.8334C54.25 29.0625 53.109 31.6243 50.8271 33.5188C48.5451 35.4132 45.9833 36.2959 43.1417 36.1667L31.1292 59.4167ZM18.0833 31C18.7292 31 19.3647 30.8924 19.9898 30.6771C20.615 30.4618 21.1851 30.0959 21.7 29.5792L23.1208 28.1584L24.8 29.1917C25.7042 29.7945 26.6841 30.2466 27.7398 30.548C28.7956 30.8493 29.8823 31 31 31C32.1194 31 33.207 30.8493 34.2628 30.548C35.3185 30.2466 36.2976 29.7945 37.2 29.1917L38.8792 28.1584L40.3 29.5792C40.8167 30.0959 41.3876 30.4618 42.0128 30.6771C42.6379 30.8924 43.2726 31 43.9167 31C45.3375 31 46.5543 30.4937 47.5669 29.481C48.5796 28.4684 49.0851 27.2525 49.0833 25.8334C49.0833 24.5417 48.6743 23.4111 47.8563 22.4415C47.0382 21.4718 45.9833 20.8803 44.6917 20.6667L42.7542 20.4084L42.625 18.3417C42.4097 15.3709 41.1826 12.8633 38.9438 10.819C36.7049 8.77476 34.0569 7.75176 31 7.75004C27.9431 7.75004 25.2951 8.77304 23.0563 10.819C20.8174 12.865 19.5903 15.3726 19.375 18.3417L19.2458 20.4084L17.3083 20.7959C16.0167 21.0542 14.9618 21.6355 14.1438 22.5396C13.3257 23.4438 12.9167 24.5417 12.9167 25.8334C12.9167 27.2542 13.423 28.471 14.4357 29.4836C15.4483 30.4963 16.6642 31.0018 18.0833 31ZM31.1292 48.1792L38.1042 34.6167C37.0708 35.1334 35.9514 35.5209 34.7458 35.7792C33.5403 36.0375 32.2917 36.1667 31 36.1667C29.8375 36.1667 28.6638 36.0375 27.4789 35.7792C26.294 35.5209 25.1427 35.1334 24.025 34.6167L31.1292 48.1792Z">
+                                    </svg>
+                                </span>
+                                BEST
+                            </a>
+                        </li>
+                    </ul>
+                    <p>벤앤제리스의 따끈따끈한<br>
+                        신제품을 소개합니다</p>
+                </div>
+                <div class="ice_cream_box">
+                    <div class="ice_cream1">
+                        <div class="ice_list">
+                            <a href="product_detail.html"><div class="img"><img src="./images/product/pint/new-york-super-fudge.webp" alt="Karamel Sutr"></div></a>
+                            <div class="product_name">
+                                <p class="name_en">Karamel Sutra</p>
+                                <p class="name_ko">카라멜 수트라</p>
+                            </div>
+                        </div>
+                        <div class="ice_list">
+                            <a href="javascript:void(0)"><div class="img"><img src="./images/product/pint/peanut-butter-cup.webp" alt="Peanut Butter Cup"></div></a>
+                            <div class="product_name">
+                                <p class="name_en">Peanut Butter Cup</p>
+                                <p class="name_ko">피넛 버터 컵</p>
+                            </div>
+                        </div>
+                        <div class="ice_list">
+                            <a href="javascript:void(0)"><div class="img"><img src="./images/product/pint/coffee-coffee-buzz.webp" alt="Coffee,Coffee BuzzBuzzBuzz"></div></a>
+                            <div class="product_name">
+                                <p class="name_en">Coffee,Coffee BuzzBuzzBuzz</p>
+                                <p class="name_ko">커피커피커피 버즈버즈버즈</p>
+                            </div>
+                        </div>
+                        <div class="ice_list de">
+                            <a href="javascript:void(0)"><div class="img"><img src="./images/product/scoop/americone_dream.png" alt="Americone Dream"></div></a>
+                            <div class="product_name">
+                                <p class="name_en">Americone Dream</p>
+                                <p class="name_ko">아메리칸 드림</p>
+                            </div>
+                        </div>
+                        <div class="ice_list de">
+                            <a href="javascript:void(0)"><div class="img"><img src="./images/product/scoop/marshmallowsky.png" alt="Marshmallow Sky"></div></a>
+                            <div class="product_name">
+                                <p class="name_en">Marshmallow Sky</p>
+                                <p class="name_ko">마시멜로우 스카이</p>
+                            </div>
+                        </div>
+                        <div class="ice_list de">
+                            <a href="javascript:void(0)"><div class="img"><img src="./images/product/minicup/Americone-Dream.png" alt="Americone Dream"></div></a>
+                            <div class="product_name">
+                                <p class="name_en">Americone Dream</p>
+                                <p class="name_ko">아메리칸 드림</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="ice_cream2">
+                        <div class="ice_list">
+                            <a href="javascript:void(0)"><div class="img"><img src="./images/product/pint/half-baked.webp" alt="Half Baked"></div></a>
+                            <div class="product_name">
+                                <p class="name_en">Half Baked</p>
+                                <p class="name_ko">하프 베이크드</p>
+                            </div>
+                        </div>
+                        <div class="ice_list">
+                            <a href="javascript:void(0)"><div class="img"><img src="./images/product/pint/chunky-monkey.webp" alt="Chunky Monkey"></div></a>
+                            <div class="product_name">
+                                <p class="name_en">Chunky Monkey</p>
+                                <p class="name_ko">청키 몽키</p>
+                            </div>
+                        </div>
+                        <div class="ice_list">
+                            <a href="javascript:void(0)"><div class="img"><img src="./images/product/pint/choc-chip-cookie-dough.webp" alt="Chocolate Chip Cookie Dough"></div></a>
+                            <div class="product_name">
+                                <p class="name_en">Chocolate Chip Cookie Dough</p>
+                                <p class="name_ko">초콜릿 칩 쿠키 도우</p>
+                            </div>
+                        </div>
+                        <div class="ice_list de">
+                            <a href="javascript:void(0)"><div class="img"><img src="./images/product/scoop/cherrygarcia.png" alt="Cherry Garcia"></div></a>
+                            <div class="product_name">
+                                <p class="name_en">Cherry Garcia</p>
+                                <p class="name_ko">체리 가르시아</p>
+                            </div>
+                        </div>
+                        <div class="ice_list de">
+                            <a href="javascript:void(0)"><div class="img"><img src="./images/product/scoop/chocolatefudgebrownie.png" alt="Chocolate Fudge Brownie"></div></a>
+                            <div class="product_name">
+                                <p class="name_en">Chocolate Fudge Brownie</p>
+                                <p class="name_ko">초콜릿 퍼지 브라우니</p>
+                            </div>
+                        </div>
+                        <div class="ice_list de">
+                            <a href="javascript:void(0)"><div class="img"><img src="./images/product/scoop/strawberrymarshmallow.png" alt="Strawberry Marshmallow"></div></a>
+                            <div class="product_name">
+                                <p class="name_en">Strawberry Marshmallow</p>
+                                <p class="name_ko">스트로베리 마시멜로우</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- pint -->
+            <div class="pint">
+                <div class="slide_page">
+                    <ul class="pint_list">
+                        <li>
+                            <a href="product_detail.html"><div class="img"><img src="./images/product/pint/karamel-sutra.webp" alt="Karamel sutra"></div></a>
+                            <div class="product_name">
+                                <p class="name_en">Karamel sutra</p>
+                                <p class="name_ko">카라멜 수트라</p>
+                            </div>
+                        </li>
+                        <li>
+                            <a href="javascript:void(0)"><div class="img"><img src="./images/product/pint/peanut-butter-cup.webp" alt="Peanut Butter Cup"></div></a>
+                            <div class="product_name">
+                                <p class="name_en">Peanut Butter Cup</p>
+                                <p class="name_ko">피넛 버터 컵</p>
+                            </div>
+                        </li>
+                        <li>
+                            <a href="javascript:void(0)"><div class="img"><img src="./images/product/pint/half-baked.webp" alt="Half Baked"></div></a>
+                            <div class="product_name">
+                                <p class="name_en">Half Baked</p>
+                                <p class="name_ko">하프 베이크드</p>
+                            </div>
+                        </li>
+                        <li>
+                            <a href="javascript:void(0)"><div class="img"><img src="./images/product/pint/new-york-super-fudge.webp" alt="New York Super Fudge"></div></a>
+                            <div class="product_name">
+                                <p class="name_en">New York Super Fudge</p>
+                                <p class="name_ko">뉴욕 슈퍼 퍼지 청크</p>
+                            </div>
+                        </li>
+                        <li>
+                            <a href="javascript:void(0)"><div class="img"><img src="./images/product/pint/mint-chocolate-cookie.webp" alt="Mint Chocolate Cookie"></div></a>
+                            <div class="product_name">
+                                <p class="name_en">Mint Chocolate Cookie</p>
+                                <p class="name_ko">민트 초콜릿 칩 쿠키</p>
+                            </div>
+                        </li>
+                        <li>
+                            <a href="javascript:void(0)"><div class="img"><img src="./images/product/pint/vanilla.webp" alt="Vanilla"></div></a>
+                            <div class="product_name">
+                                <p class="name_en">Vanilla</p>
+                                <p class="name_ko">바닐라</p>
+                            </div>
+                        </li>
+                        <li>
+                            <a href="javascript:void(0)"><div class="img"><img src="./images/product/pint/chunky-monkey.webp" alt="Chunky Monkey"></div></a>
+                            <div class="product_name">
+                                <p class="name_en">Chunky Monkey</p>
+                                <p class="name_ko">청키 몽키</p>
+                            </div>
+                        </li>
+                        <li>
+                            <a href="javascript:void(0)"><div class="img"><img src="./images/product/pint/cherry-garcia.webp" alt="Cherry Garcia"></div></a>
+                            <div class="product_name">
+                                <p class="name_en">Cherry Garcia</p>
+                                <p class="name_ko">체리 가르시아</p>
+                            </div>
+                        </li>
+                    </ul>
+                    <ul class="pint_list">
+                        <li>
+                            <a href="javascript:void(0)"><div class="img"><img src="./images/product/pint/choc-chip-cookie-dough.webp" alt="Chocolate Chip Cookie Dough"></div></a>
+                            <div class="product_name">
+                                <p class="name_en">Chocolate Chip Cookie Dough</p>
+                                <p class="name_ko">초콜릿 칩 쿠키 도우</p>
+                            </div>
+                        </li>
+                        <li>
+                            <a href="javascript:void(0)"><div class="img"><img src="./images/product/pint/chocolate-fudge-brownie.webp" alt="Chocolate Fudge Brownie"></div></a>
+                            <div class="product_name">
+                                <p class="name_en">Chocolate Fudge Brownie</p>
+                                <p class="name_ko">초콜릿 퍼지 브라우니</p>
+                            </div>
+                        </li>
+                        <li>
+                            <a href="javascript:void(0)"><div class="img"><img src="./images/product/pint/coffee-coffee-buzz.webp" alt="Coffee,Coffee BuzzBuzzBuzz"></div></a>
+                            <div class="product_name">
+                                <p class="name_en">Coffee,Coffee BuzzBuzzBuzz</p>
+                                <p class="name_ko">커피커피커피 버즈버즈버즈</p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <!-- minicup -->
+            <div class="minicup">
+                <div class="slide_page">
+                    <ul class="minicup_list">
+                        <li>
+                            <a href="javascript:void(0)"><div class="img"><img src="./images/product/minicup/Americone-Dream.png" alt="Americone Dream"></div></a>
+                            <div class="product_name">
+                                <p class="name_en">Americone Dream</p>
+                                <p class="name_ko">아메리칸 드림</p>
+                            </div>
+                        </li>
+                        <li>
+                            <a href="javascript:void(0)"><div class="img"><img src="./images/product/minicup/Strawberry-Cheesecake.png" alt="Strawberry Cheesecake"></div></a>
+                            <div class="product_name">
+                                <p class="name_en">Strawberry Cheesecake</p>
+                                <p class="name_ko">스트로베리 치즈케이크</p>
+                            </div>
+                        </li>
+                        <li>
+                            <a href="javascript:void(0)"><div class="img"><img src="./images/product/minicup/Cherry-Garcia.png" alt="Cherry Garcia"></div></a>
+                            <div class="product_name">
+                                <p class="name_en">Cherry Garcia</p>
+                                <p class="name_ko">체리 가르시아</p>
+                            </div>
+                        </li>
+                        <li>
+                            <a href="javascript:void(0)"><div class="img"><img src="./images/product/minicup/Chocolate-Chip-Cookie-Dough.png" alt="Chocolate Chip Cookie Dough"></div></a>
+                            <div class="product_name">
+                                <p class="name_en">Chocolate Chip Cookie Dough</p>
+                                <p class="name_ko">초콜릿 칩 쿠키 도우</p>
+                            </div>
+                        </li>
+                        <li>
+                            <a href="javascript:void(0)"><div class="img"><img src="./images/product/minicup/Chocolate-Fudge-Brownie.png" alt="Chocolate Fudge Brownie"></div></a>
+                            <div class="product_name">
+                                <p class="name_en">Chocolate Fudge Brownie</p>
+                                <p class="name_ko">초콜릿 퍼지 브라우니</p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <!-- scoop -->
+            <div class="scoop">
+                <div class="slide_page">
+                    <ul class="scoop_list">
+                        <li>
+                            <a href="javascript:void(0)"><div class="img"><img src="./images/product/scoop/americone_dream.png" alt="Americone Dream"></div></a>
+                            <div class="product_name">
+                                <p class="name_en">Americone Dream</p>
+                                <p class="name_ko">아메리칸 드림</p>
+                            </div>
+                        </li>
+                        <li>
+                            <a href="javascript:void(0)"><div class="img"><img src="./images/product/scoop/butterpecan.png" alt="Butter Pecan"></div></a>
+                            <div class="product_name">
+                                <p class="name_en">Butter Pecan</p>
+                                <p class="name_ko">버터 피칸</p>
+                            </div>
+                        </li>
+                        <li>
+                            <a href="javascript:void(0)"><div class="img"><img src="./images/product/scoop/Butterscotched.png" alt="Butter Scotched"></div></a>
+                            <div class="product_name">
+                                <p class="name_en">Butter Scotched</p>
+                                <p class="name_ko">버터스카치</p>
+                            </div>
+                        </li>
+                        <li>
+                            <a href="javascript:void(0)"><div class="img"><img src="./images/product/scoop/chocolate.png" alt="Chocolate"></div></a>
+                            <div class="product_name">
+                                <p class="name_en">Chocolate</p>
+                                <p class="name_ko">초콜릿</p>
+                            </div>
+                        </li>
+                        <li>
+                            <a href="javascript:void(0)"><div class="img"><img src="./images/product/scoop/cherrygarcia.png" alt="Cherry Garcia"></div></a>
+                            <div class="product_name">
+                                <p class="name_en">Cherry Garcia</p>
+                                <p class="name_ko">체리 가르시아</p>
+                            </div>
+                        </li>
+                        <li>
+                            <a href="javascript:void(0)"><div class="img"><img src="./images/product/scoop/chocolatechipcookiedough.png" alt="Chocolate Chip Cookie Dough"></div></a>
+                            <div class="product_name">
+                                <p class="name_en">Chocolate Chip Cookie Dough</p>
+                                <p class="name_ko">초콜릿 칩 쿠키 도우</p>
+                            </div>
+                        </li>
+                        <li>
+                            <a href="javascript:void(0)"><div class="img"><img src="./images/product/scoop/chocolatefudgebrownie.png" alt="Chocolate Fudge Brownie"></div></a>
+                            <div class="product_name">
+                                <p class="name_en">Chocolate Fudge Brownie</p>
+                                <p class="name_ko">초콜릿 퍼지 브라우니</p>
+                            </div>
+                        </li>
+                        <li>
+                            <a href="javascript:void(0)"><div class="img"><img src="./images/product/scoop/chocolatepbchunk.png" alt="Chocolate PB Chunk"></div></a>
+                            <div class="product_name">
+                                <p class="name_en">Chocolate PB Chunk</p>
+                                <p class="name_ko">초콜릿 피비청크</p>
+                            </div>
+                        </li>
+                    </ul>
+                    <ul class="scoop_list">
+                        <li>
+                            <a href="javascript:void(0)"><div class="img"><img src="./images/product/scoop/chocolatetherapy.png" alt="Chocolate Theraphy"></div></a>
+                            <div class="product_name">
+                                <p class="name_en">Chocolate Theraphy</p>
+                                <p class="name_ko">초콜릿 테라피</p>
+                            </div>
+                        </li>
+                        <li>
+                            <a href="javascript:void(0)"><div class="img"><img src="./images/product/scoop/chunkymonkey.png" alt="Chunky Monkey"></div></a>
+                            <div class="product_name">
+                                <p class="name_en">Chunky Monkey</p>
+                                <p class="name_ko">청키 몽키</p>
+                            </div>
+                        </li>
+                        <li>
+                            <a href="javascript:void(0)"><div class="img"><img src="./images/product/scoop/halfbaked.png" alt="Haif Baked"></div></a>
+                            <div class="product_name">
+                                <p class="name_en">Haif Baked</p>
+                                <p class="name_ko">하프 베이크드</p>
+                            </div>
+                        </li>
+                        <li>
+                            <a href="javascript:void(0)"><div class="img"><img src="./images/product/scoop/CoffeeCoffeeBuzzBuzzBuzz.png" alt="Coffee, Coffee BuzzBuzzBuzz"></div></a>
+                            <div class="product_name">
+                                <p class="name_en">Coffee, Coffee BuzzBuzzBuzz</p>
+                                <p class="name_ko">커피커피커피 버즈버즈버즈</p>
+                            </div>
+                        </li>
+                        <li>
+                            <a href="javascript:void(0)"><div class="img"><img src="./images/product/scoop/ChurrayForChurros.png" alt="Churray For Churros"></div></a>
+                            <div class="product_name">
+                                <p class="name_en">Churray For Churros</p>
+                                <p class="name_ko">츄레이 포 츄러스</p>
+                            </div>
+                        </li>
+                        <li>
+                            <a href="javascript:void(0)"><div class="img"><img src="./images/product/scoop/CoconutSevenLayerBar.png" alt="Coconut Seven Layer Bar"></div></a>
+                            <div class="product_name">
+                                <p class="name_en">Coconut Seven Layer Bar</p>
+                                <p class="name_ko">코코넛 세븐 레이어 바</p>
+                            </div>
+                        </li>
+                        <li>
+                            <a href="javascript:void(0)"><div class="img"><img src="./images/product/scoop/dirtcake.png" alt="Dirtcake"></div></a>
+                            <div class="product_name">
+                                <p class="name_en">Dirtcake</p>
+                                <p class="name_ko">더트케이크</p>
+                            </div>
+                        </li>
+                        <li>
+                            <a href="javascript:void(0)"><div class="img"><img src="./images/product/scoop/gimmesmore.png" alt="Gimmesmore"></div></a>
+                            <div class="product_name">
+                                <p class="name_en">Gimmesmore</p>
+                                <p class="name_ko">기미스모어</p>
+                            </div>
+                        </li>
+                    </ul>
+                    <ul class="scoop_list">
+                        <li>
+                            <a href="javascript:void(0)"><div class="img"><img src="./images/product/scoop/lemonadesorbet.png" alt="Lemonade Sorbet"></div></a>
+                            <div class="product_name">
+                                <p class="name_en">Lemonade Sorbet</p>
+                                <p class="name_ko">레몬소르베</p>
+                            </div>
+                        </li>
+                        <li>
+                            <a href="javascript:void(0)"><div class="img"><img src="./images/product/scoop/lightscaramelaction.png" alt="Lights Caramel Action"></div></a>
+                            <div class="product_name">
+                                <p class="name_en">Lights Caramel Action</p>
+                                <p class="name_ko">라이츠 카라멜 액션</p>
+                            </div>
+                        </li>
+                        <li>
+                            <a href="javascript:void(0)"><div class="img"><img src="./images/product/scoop/marshmallowsky.png" alt="Marshmallow Sky"></div></a>
+                            <div class="product_name">
+                                <p class="name_en">Marshmallow Sky</p>
+                                <p class="name_ko">마시멜로우 스카이</p>
+                            </div>
+                        </li>
+                        <li>
+                            <a href="javascript:void(0)"><div class="img"><img src="./images/product/scoop/milk-cookies.png" alt="Milk Cookies"></div></a>
+                            <div class="product_name">
+                                <p class="name_en">Milk Cookies</p>
+                                <p class="name_ko">밀크 쿠키</p>
+                            </div>
+                        </li>
+                        <li>
+                            <a href="javascript:void(0)"><div class="img"><img src="./images/product/scoop/mintchocolatechance.png" alt="Mint Chocolate Chance"></div></a>
+                            <div class="product_name">
+                                <p class="name_en">Mint Chocolate Chance</p>
+                                <p class="name_ko">민트 초콜릿 찬스</p>
+                            </div>
+                        </li>
+                        <li>
+                            <a href="javascript:void(0)"><div class="img"><img src="./images/product/scoop/mintchocolatechunk.png" alt="Mint Chocolate Chunk"></div></a>
+                            <div class="product_name">
+                                <p class="name_en">Mint Chocolate Chunk</p>
+                                <p class="name_ko">민트 초콜릿 청크</p>
+                            </div>
+                        </li>
+                        <li>
+                            <a href="javascript:void(0)"><div class="img"><img src="./images/product/scoop/newyorksuperfudgechunk.png" alt="New York Super Fudge Chunk"></div></a>
+                            <div class="product_name">
+                                <p class="name_en">New York Super Fudge Chunk</p>
+                                <p class="name_ko">뉴욕 슈퍼 퍼지 청크</p>
+                            </div>
+                        </li>
+                        <li>
+                            <a href="javascript:void(0)"><div class="img"><img src="./images/product/scoop/oatmealdreampie.png" alt="Oatmeal Dream Pie"></div></a>
+                            <div class="product_name">
+                                <p class="name_en">Oatmeal Dream Pie</p>
+                                <p class="name_ko">오트밀 드림 파이</p>
+                            </div>
+                        </li>
+                    </ul>
+                    <ul class="scoop_list">
+                        <li>
+                            <a href="javascript:void(0)"><div class="img"><img src="./images/product/scoop/peanutbuttercup.png" alt="Peanut Butter Cup"></div></a>
+                            <div class="product_name">
+                                <p class="name_en">Peanut Butter Cup</p>
+                                <p class="name_ko">피넛 버터 컵</p>
+                            </div>
+                        </li>
+                        <li>
+                            <a href="javascript:void(0)"><div class="img"><img src="./images/product/scoop/phishfood.png" alt="Phish Food"></div></a>
+                            <div class="product_name">
+                                <p class="name_en">Phish Food</p>
+                                <p class="name_ko">피시 푸드</p>
+                            </div>
+                        </li>
+                        <li>
+                            <a href="javascript:void(0)"><div class="img"><img src="./images/product/scoop/strawberry.png" alt="Strawberry"></div></a>
+                            <div class="product_name">
+                                <p class="name_en">Strawberry</p>
+                                <p class="name_ko">스트로베리</p>
+                            </div>
+                        </li>
+                        <li>
+                            <a href="javascript:void(0)"><div class="img"><img src="./images/product/scoop/strawberrymarshmallow.png" alt="Strawberry Marshmallow"></div></a>
+                            <div class="product_name">
+                                <p class="name_en">Strawberry Marshmallow</p>
+                                <p class="name_ko">스트로베리 마시멜로우</p>
+                            </div>
+                        </li>
+                        <li>
+                            <a href="javascript:void(0)"><div class="img"><img src="./images/product/scoop/vanilla.png" alt="Vanilla"></div></a>
+                            <div class="product_name">
+                                <p class="name_en">Vanilla</p>
+                                <p class="name_ko">바닐라</p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="product_page2">
+        <div class="product2">
+            <div class="product2_box">
+                <ul class="product_list2">
+                    <li class="on"><a href="javascript:void(0)">VEGAN</a></li>
+                    <li><a href="javascript:void(0)">SUNDAE</a></li>
+                    <li><a href="javascript:void(0)">ETC</a></li>
+                </ul>
+                <div class="product_vegan active">
+                    <ul class="vegan_list">
+                    </ul>
+                </div>
+                <div class="product_sundae">
+                    <ul class="sundae_list">
+                    </ul>
+                </div>
+                <div class="product_etc">
+                    <ul class="etc_list">
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="recipe">
+        <div class="recipe_box">
+            <h2>RECIPE</h2>
+            <ul class="com_recipe">
+                <li class="vegan">
+                    <div><a href="javascript:void(0)">Vegan</a></div>
+                    <p>Vegan</p>
+                </li>
+                <li class="milkshake">
+                    <div><a href="javascript:void(0)">Milkshake</a></div>
+                    <p>Milkshake</p>
+                </li>
+                <li class="sundae">
+                    <div><a href="javascript:void(0)">Sundae</a></div>
+                    <p>Sundae</p>
+                </li>
+                <li class="breakfast">
+                    <div><a href="javascript:void(0)">Breakfast</a></div>
+                    <p>Breakfast</p>
+                </li>
+            </ul>
+        </div>
+    </section>
+    <section class="value">
+        <div class="value_box">
+            <h2>VALUE</h2>
+            <ul class="ceo_value">
+                <li class="trade">
+                    <div><a href="javascript:void(0)">공정무역</a></div>
+                    <p>공정무역</p>
+                </li>
+                <li class="marriage">
+                    <div><a href="javascript:void(0)">평등결혼</a></div>
+                    <p>평등결혼</p>
+                </li>
+                <li class="climate">
+                    <div><a href="javascript:void(0)">기후정의</a></div>
+                    <p>기후정의</p>
+                </li>
+                <li class="peace">
+                    <div><a href="javascript:void(0)">평화구축</a></div>
+                    <p>평화구축</p>
+                </li>
+            </ul>
+        </div>
+    </section>
+    <footer>
+        <div class="footer_inner">
+            <h1>
+                <span>ice-cream img</span>
+                <img src="./images/logo/logo2.png" alt="logo">
+            </h1>
+            <div class="sns">
+                <span class="facebook">페이스북</span>
+                <span class="insta">인스타그램</span>
+            </div>
+            <div class="infor_con">
+                <ul class="contact">
+                    <li class="sub">contact</li>
+                    <li>0000-1111</li>
+                    <li>contact@benjerrys.xyz</li>
+                </ul>
+                <ul class="information">
+                    <li class="sub">information</li>
+                    <li><a href="javascript:void(0)">이용약관</a></li>
+                    <li><a href="javascript:void(0)">개인정보</a></li>
+                </ul>
+            </div>
+            <div class="copy">
+                <p><span>(주)벤앤제리스</span><span>대표 이종범 ㅣ개인정보책임자 이혜린</span></p>
+                <p><span>사업자번호 323-98-23193 [사업자정보확인]</span><span>통신판매업 신고번호 2018-서울서초-0000</span></p>
+                <p><span>주소 00112 서울특별시 서초구 강남대로 123 000동 000호 </span><span>COPYRIGHT BEN&JERRYS CORP.</span></p>
+            </div>
+        </div>
+    </footer>
+    <script src="./script/main_jquery.js"></script>
+    <script src="./script/main_js.js"></script>
+</body>
+</html>

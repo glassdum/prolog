@@ -1,0 +1,124 @@
+@charset "utf-8";
+body {
+    background: #add9e6;
+    box-sizing: border-box;
+}
+section {
+    width: 90%;
+    margin: 50px auto;
+    background: #fff;
+    box-sizing: border-box;
+}
+header {
+    width: 100%;
+    padding: 30px;
+    box-sizing: border-box;
+}
+header h1 {
+    text-align: center;
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 24px;
+}
+header h3, header h4 {
+    font-size: 18px;
+    display: flex;
+    gap: 12px;
+    justify-content: end;
+}
+header h3 {
+    font-weight: bold;
+    margin-bottom: 12px;
+}
+header h3 span, header h4 span {
+    display: block;
+}
+main {
+    width: 100%;
+    padding: 30px;
+    box-sizing: border-box;
+}
+main #input_box {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+    margin-bottom: 48px;
+}
+main #input_box input {
+    width: calc(100% - 86px);
+    height: 48px;
+    text-indent: 24px;
+}
+main #input_box button {
+    width: 48px;
+    height: 48px;
+    border: none;
+    outline: none;
+    background: none;
+    background: url(../images/plus.png) no-repeat center center;
+    text-indent: -99999px;
+}
+main #work_box {
+    width: 100%;
+    box-sizing: border-box;
+    border: 1px solid #80007d;
+    border-bottom: none;
+}
+main #work_box ul {
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    gap: 24px;
+    box-sizing: border-box;
+    border-bottom: 1px solid #80007d;
+}
+main #work_box ul li {
+    font-size: 18px;
+    cursor: pointer;
+}
+main #work_box ul li.on {
+    font-weight: bold;
+    color: #80007d;
+}
+main #work_box ul div {
+    font-size: 18px;
+    cursor: pointer;
+}
+main #work_box>div {
+    width: 100%;
+}
+main #work_box>div div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+main #work_box>div .list {
+    padding: 20px;
+    box-sizing: border-box;
+    border-bottom: 1px solid #80007d;
+}
+main #work_box>div .list p {
+    width: calc(100% - 150px);
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+main #work_box>div .list p span {
+    display: block;
+    font-size: 14px;
+}
+main #work_box>div .list p.done {
+    color: #80007d;
+    text-decoration: line-through;
+}
+main #work_box>div .list .btn {
+    gap: 16px;
+}
+main #work_box>div div button {
+    border: none;
+    outline: none;
+    background: none;
+}
